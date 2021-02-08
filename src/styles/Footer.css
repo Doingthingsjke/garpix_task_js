@@ -1,0 +1,93 @@
+.footer_body {
+  display: flex;
+  justify-content: flex-start;
+  height: 300px;
+}
+.footer_body--info {
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 100px;
+  width: 240px;
+  text-align: left;
+}
+
+.footer_body--info--small {
+  color: #a0a0a0;
+  margin-bottom: 55px;
+  margin-top: 2px;
+}
+.footer_body--info--big {
+  font-size: 34px;
+  font-weight: 600;
+  color: black;
+}
+.footer_body--info--pao {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  font-size: 18px;
+  color: #a0a0a0;
+}
+.footer_body--buttons {
+  width: 900px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.footer_button {
+  background-color: white;
+  outline: none;
+  border: 0;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  color: #363636;
+}
+.footer_button:hover:not(:focus) {
+  background-color: rgb(240, 237, 237);
+  border-radius: 10px;
+}
+.footer_button:focus,
+.footer_button:active {
+  border-bottom: 2px solid black;
+}
+.footer_button--app {
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  outline: none;
+  border: 0;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.footer_button--app img {
+  margin-top: -5px;
+  margin-left: -10px;
+}
+.footer_button--app:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+.footer_body--buttons--second {
+  width: 845px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.footer_button--social {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  outline: none;
+  border: 0;
+  margin-left: 20px;
+}
+.footer_button--social img {
+  border-radius: 10px;
+  margin-top: -5px;
+}
+.footer_body--policy a,
+.footer_body--policy {
+  margin-top: 40px;
+  font-size: 15px;
+  color: #a0a0a0;
+}

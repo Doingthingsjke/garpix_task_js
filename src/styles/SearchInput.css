@@ -1,0 +1,80 @@
+.search_input {
+  z-index: 2;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(12, 12, 12, 0.4);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.2s;
+}
+.search_input.active {
+  opacity: 1;
+  pointer-events: all;
+}
+.search_input--content {
+  background-color: white;
+  height: 60px;
+  width: 340px;
+  position: fixed;
+  top: 7%;
+  left: 58.3%;
+  transform: scale(0.5);
+  transition: 0.2s all;
+  display: flex;
+  justify-content: flex-start;
+}
+.search_input--content.active {
+  transform: scale(1);
+}
+.search_input--modal,
+.search_input--button {
+  opacity: 0;
+}
+
+input[type='text'].active {
+  opacity: 1;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-right: 0px;
+  margin-top: 10px;
+  padding: 4px 0px 4px 4px;
+  width: 260px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.2s ease;
+  color: black;
+}
+
+input[type='text'].active:focus {
+  transition: 0.2s ease;
+  outline: none;
+}
+.search_input--button.active {
+  opacity: 1;
+  display: block;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-left: 0px;
+  margin-top: 10px;
+  padding: 7px 9px 4px 10px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  transition: 0.2s ease;
+  background-color: white;
+}
+.search_input--button.active:focus {
+  outline: none;
+}
+.search_input--button.active:hover {
+  border: 1px solid #aaa;
+  background-color: #d4d4d4;
+  border-radius: 20px;
+}

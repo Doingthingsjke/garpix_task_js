@@ -1,0 +1,35 @@
+.carbarfive {
+  width: 680px;
+  height: 200px;
+}
+.carbarfive_logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 680px;
+  height: 158px;
+  background-color: white;
+  border-radius: 130px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.carbarfive_logo img {
+  width: min-content;
+  margin: 0 auto;
+}
+.carbarfive_desc {
+  margin-top: -5px;
+  border-top: 40px solid white;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 5px solid white;
+  height: 0px;
+  position: inherit;
+  margin-left: 350px;
+  width: 170px;
+  border-bottom-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+.carbarfive_desc div {
+  margin-top: -30px;
+}

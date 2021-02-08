@@ -1,0 +1,29 @@
+.discount_card {
+  margin-top: 40px;
+  width: 380px;
+  height: 319px;
+  border-radius: 7px;
+}
+.discount_card--logo {
+  margin: 0 auto;
+  width: 380px;
+}
+.discount_card--logo img {
+  border-radius: 7px;
+}
+.discount_card--desc {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+.discount_card--desc--name {
+  margin-left: 5px;
+}
+.discount_card--desc--name div {
+  margin-top: 3px;
+  text-align: left;
+}
+.discount_card--desc--name--name {
+  color: #bbbbbb;
+  font-size: 14px;
+}
