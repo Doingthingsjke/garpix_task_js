@@ -1,3 +1,23 @@
+# Примеры работы
+
+![img](https://github.com/Doingthingsjke/garpix_task/blob/master/garpix_task_screens/1.png)
+======
+![img](https://github.com/Doingthingsjke/garpix_task/blob/master/garpix_task_screens/2.png)
+======
+![img](https://github.com/Doingthingsjke/garpix_task/blob/master/garpix_task_screens/3.png)
+======
+![img](https://github.com/Doingthingsjke/garpix_task/blob/master/garpix_task_screens/4.png)
+======
+![img](https://github.com/Doingthingsjke/garpix_task/blob/master/garpix_task_screens/5.png)
+======
+![img](https://github.com/Doingthingsjke/garpix_task/blob/master/garpix_task_screens/6.png)
+======
+![img](https://github.com/Doingthingsjke/garpix_task/blob/master/garpix_task_screens/7.png)
+======
+![img](https://github.com/Doingthingsjke/garpix_task/blob/master/garpix_task_screens/8.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
